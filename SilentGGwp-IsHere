@@ -1,0 +1,212 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+
+WindUI:AddTheme({
+    Name = "Teal Moon",
+    Accent = Color3.fromRGB(11, 93, 102),
+    Outline = Color3.fromRGB(255,255,255),
+    Text = Color3.fromRGB(255,255,255),
+    Background = Color3.fromRGB(3, 28, 32),
+})
+
+local Window = WindUI:CreateWindow({
+    Title = "☠️SILENT EXPLOITS | GG HUB☠️",
+    Icon = "rbxassetid://7229442422",
+    Author = "UI Framework",
+    Folder = "HAMA YAPING",
+    Size = UDim2.fromOffset(500, 300),
+    Transparent = true,
+    Acrylic = true,
+    Theme = "Teal Moon",
+    SideBarWidth = 180,
+    HasOutline = true,
+    User = {
+        Enabled = false,
+        Anonymous = true
+    }
+    -- ❌ Tidak ada KeySystem di sini
+})
+
+Window:Tag({
+    Title = "SILENT☠️",
+    Color = Color3.fromRGB(255, 48, 48),
+    Radius = 13
+})
+
+local MainTab = Window:Tab({Title="ALL SCRIPT 🔥", Icon="rocket"})
+MainTab:Button({
+    Title = "SPECTATOR BY SILENT🦇",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-spectate-players-script-by-ai-125959"))()
+    end
+})
+MainTab:Button({
+    Title = "COPY AVA",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/Copy%20Avatar'))()
+    end
+})
+MainTab:Button({
+    Title = "INFINITE YIELD",
+    Callback = function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-infinite-yield-script-122746"))() 
+    end
+})
+MainTab:Button({
+    Title = "FREECAM MOBILE",
+    Callback = function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/trivial-ui/7bedb1a1dcdc7e6c1fb3a44a739d6e30/raw/2d86f34352cb5d947fcb54f9e33710a9cd28d8cc/freecam.lua"))()
+    end
+})MainTab:Button({
+    Title = "FLY GUI",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-V3-50586"))()
+    end
+})
+MainTab:Button({
+    Title = "R6 ANIMATION",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/59mJGQGe/raw"))()
+    end
+})
+
+MainTab:Button({
+    Title = "TITLE VISUAL",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/JLgp5WRx/raw"))()
+    end
+})
+
+local MenuTab = Window:Tab({Title="RUSUH VERSI BRUTAL⚡", Icon="menu"})
+MenuTab:Button({
+    Title = "RUSUH VERSI BRUTAL",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/chesslovers69/Super-ring-parts-v6/refs/heads/main/Bylukaslol"))()
+
+    end
+})
+MenuTab:Button({
+    Title = "JSY MENU",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/jsymenu/JSY/refs/heads/main/guiv2.txt"))()
+    end
+})
+MenuTab:Button({
+    Title = "BRING PART",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Bring-Parts-V1-69618"))()
+    end
+})
+local SalonTab = Window:Tab({Title="HITAMKAN SALON👽", Icon="crown"})
+SalonTab:Button({
+    Title = "SIEXTHER",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/KNTLX69/SXTHR666/refs/heads/main/SIEXTHER-HYTAMKAN"))()
+    end
+})
+local FishTab = Window:Tab({Title="FISH IT🌀", Icon="fish"})
+FishTab:Button({
+    Title = "LEXSHUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/albibot69-lgtm/Lexs/refs/heads/main/Loader/Main.lua"))()
+    end
+})
+FishTab:Button({
+    Title = "FYHUB",
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/fyywannafly-sudo/FyyExploit/refs/heads/main/MancingBG'))()
+    end
+})
+FishTab:Button({
+    Title = "HYDRA",
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fcc63f5f04efa9a6a85d6f16a179b870.lua"))()
+    end
+})
+FishTab:Button({
+    Title = "FLING FISH IT",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/rafkaray8-prog/VoidX-Project/refs/heads/main/main.lua"))()  
+    end
+})
+local DonateTab = Window:Tab({Title="FAKE DONATE👾", Icon="gift"})
+DonateTab:Button({
+    Title = "FAKE DONATE SIEXTHER",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KNTLX69/MAENROBLOXBIKINGBLK/refs/heads/main/%C6%A7X%C6%AC%CE%89%D0%AF-FKD%D3%A8%D0%9F%CE%9B%C6%AC"))()
+    end
+})
+DonateTab:Button({
+    Title = "HYPOLHUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/4iqtSMB6/raw"))()
+    end
+})
+local AllTab = Window:Tab({Title="SCANNER BACKDOOR☠️", Icon="archive"})
+AllTab:Button({
+    Title = "BACKDOR",
+    Callback = function()
+        loadstring(game:
+HttpGet("https://rawscripts.net/raw/Universal-Script-starlight-archive-46524"))()
+    end
+})
+
+local BostTab = Window:Tab({Title="BLOK FRUIT", Icon="zap"})
+BostTab:Button({
+    Title = "ZYNEXHUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hirokai-Script-make/Zynexhubbloxfruit/refs/heads/main/ZynexHub-BloxFruit-redz.lua"))()
+
+    end
+})
+
+BostTab:Button({
+    Title = "LEAF HUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://leaf-zeta.onrender.com/api/script"))()
+    end
+})
+
+BostTab:Button({
+    Title = "ANNIE HUB",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecreate86/BloxFruits/refs/heads/main/BetaHub-BF"))()
+
+    end
+})
+
+BostTab:Button({
+    Title = "TEDY HUB",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TeddyHub.lua"))()
+    end
+})
+
+local GgTab = Window:Tab({Title="RUSUH BROKHAVEN", Icon="zap"})
+GgTab:Button({
+    Title = "AeroHubExploits",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xploitforceofficial-stack/aeropublic/refs/heads/main/aero%25brookhaven.lua"))()
+    end
+})
+
+local SilentTab = Window:Tab({Title="REPORT | PLAYER", Icon="zap"})
+SilentTab:Button({
+    Title = "Rathub | Exploits",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xploitforceofficial-stack/rathubpublic/refs/heads/main/rathub.lua"))()
+    end
+})
+
+local TestTab = Window:Tab({Title="AIMBOT", Icon="zap"})
+TestTab:Button({
+    Title = "SILENT | AIMBOT",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/silentteam-87/SilentAimbot/refs/heads/main/SilentJembutHub"))()
+    end
+})
+Window:Init()
